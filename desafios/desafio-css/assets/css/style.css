@@ -1,0 +1,59 @@
+.header {
+  height: 100%;
+  padding: 10%;
+  font-size: 2em;
+  background-image: url("../imgs/campana.jpg");
+  opacity: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body {
+  background-image: url("../imgs/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095\ \(1\).jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.titulo,
+.subtitulo {
+  text-shadow: 0 0 0.2em rgb(47, 25, 190), 0 0 0.2em rgb(50, 21, 245),
+    0 0 0.2em rgb(13, 4, 72);
+}
+.header h1 {
+  margin: 0;
+}
+.titulo,
+.subtitulo {
+  color: rgb(47, 145, 198);
+}
+
+table p {
+  font-style: italic;
+}
+table h4 {
+  text-decoration: underline;
+}
+
+.servicios {
+  width: 80%;
+  margin: auto;
+}
+.servicios td {
+  width: 50%;
+  padding: 2em;
+}
+.servicios img {
+  width: 100%;
+  border: solid 1px #1a1818;
+}
+.footer {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 1em;
+  background-color: rgb(47, 145, 198);
+}

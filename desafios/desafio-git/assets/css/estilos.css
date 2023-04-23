@@ -1,0 +1,51 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../img/control\ top.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+#fechas {
+  padding: 12px;
+  color: white;
+}
+
+/* Area de desempeno */
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+}
+.navbar-brand {
+  width: 100px;
+}
+#presentacion {
+  /* Establecer la fuente en negrita */
+  font-weight: bold;
+  text-align: justify;
+  text-indent: 1em;
+  text-align: left;
+
+  background-color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.1em;
+}

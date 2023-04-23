@@ -1,0 +1,96 @@
+p {
+  margin: 0;
+  font-style: italic;
+}
+#fotoprincipal {
+  background-image: url("/asset/imgs/console.jpg");
+  background-size: cover;
+}
+#presentacion {
+  /* Establecer la fuente en negrita */
+  font-weight: bold;
+  text-align: justify;
+  text-indent: 1em;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0);
+  letter-spacing: 0.1em;
+}
+#portafolio .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* Estilos para la sección de Educación */
+#education {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+
+#education h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+#education h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#education p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+#education hr {
+  background-color: #3c4b64;
+  height: 2px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: none;
+}
+
+#educacion a {
+  color: #3c4b64;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+#education a:hover {
+  color: #218c74;
+  text-decoration: underline;
+}
+
+#education small {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+#education li {
+  margin-bottom: 20px;
+}
+
+#education li:last-child {
+  margin-bottom: 0;
+}
+/* tamaño foto portada */
+#fotoportada {
+  height: 300px;
+  width: 200px;
+}
+/* color de fondo */
+body {
+  background-color: rgb(23, 22, 22);
+  color: aliceblue;
+}
+#fotomovil {
+  height: auto;
+  width: auto;
+}
+.mt-6 {
+  margin-top: 76px;
+}

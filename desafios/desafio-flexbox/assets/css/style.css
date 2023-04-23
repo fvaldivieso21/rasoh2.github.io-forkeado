@@ -1,0 +1,95 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+header {
+  border: 5px solid yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+h1 {
+  color: white;
+  font-size: 50px;
+}
+.principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 550px;
+}
+.parrafo-imagen {
+  background-color: green;
+  display: flex;
+  width: 100%;
+  height: 400px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.porteparrafo {
+  text-indent: 40px;
+  text-align: justify;
+  width: 399px;
+  height: 320px;
+}
+.imagen-de-el-parrafo img {
+  width: 399px;
+  height: 320px;
+}
+.subtitulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tipos {
+  /* display: flex; */
+  background-color: yellow;
+  align-items: self-start;
+  justify-content: center;
+  width: 100%;
+}
+.iconosyparrafo {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.porteparrafoicono {
+  width: 200px;
+  height: 400px;
+  text-align: center;
+  align-items: center;
+  /* margin: 0px; */
+}
+.caja-galeria {
+  display: flex;
+  background-color: red;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 600px;
+}
+.imagen-galeria {
+  width: 300px;
+  height: 300px;
+}
+footer {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+div i {
+  font-size: 50px;
+}
+.subtitulo h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 40px;
+}

@@ -1,0 +1,44 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  background-color: green;
+}
+form {
+  background-color: green;
+}
+img {
+  height: 250px;
+  width: 200px;
+  object-fit: contain;
+  object-fit: cover;
+}
+h5 {
+  color: white;
+}
+p {
+  margin: 0;
+}
+footer {
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
+strong {
+  text-decoration: strong;
+}
+.precio {
+  text-align: end;
+}
+
+.oferta {
+  color: green;
+
+  text-align: end;
+}
+.titulofooter {
+  font-weight: bold;
+}
+hr {
+  margin: 20px 0;
+}
